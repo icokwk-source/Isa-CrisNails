@@ -8,6 +8,7 @@
 body {
   background-color: #fff5f8;
   color: #333;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -41,6 +42,8 @@ nav {
   justify-content: center;
   gap: 20px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+  border-radius: 0 0 20px 20px;
   position: sticky;
   top: 0;
 }
@@ -60,17 +63,27 @@ section {
   padding: 60px 20px;
   max-width: 1000px;
   margin: auto;
+  margin-top: 40px;
 }
 
 .sobre {
-  transform: translateY(-5px);
+}
+
+.sobre .botoes {
+
+  margin-top: 40px;
+
 }
 
 .servicos-grid {
+
   display: flex;
   justify-content: center;
   margin-top: 40px;
   padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+
 }
 
 .card {
@@ -169,7 +182,6 @@ section {
 @media (max-width: 600px) {
   .contato h2 {
     font-size: 2rem;
-  }
 
   .btn {
     width: 100%;
@@ -184,8 +196,6 @@ footer {
   padding: 20px;
   margin-top: 40px;
 }
-
-@media (max-width: 600px) {
 
 
   header h1 {
@@ -250,6 +260,15 @@ footer {
 
     font-size: 0.9rem;
     padding: 12px 20px;
+  }
+
+  nav {
+    gap: 12px;
+    padding: 12px;
+  }
+
+  nav a {
+    font-size: 0.9rem;
   }
 
 }
@@ -450,7 +469,7 @@ footer {
   width: 85%;
   max-width: 700px;
 
-  height: 750px;
+  height: 550px;
 
   object-fit: cover;
   object-position: center;
