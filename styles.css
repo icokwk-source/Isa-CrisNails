@@ -275,14 +275,17 @@ section {
 
 /* Mobile */
 @media (max-width: 600px) {
+
   .contato h2 {
+
     font-size: 2rem;
+
+}
 
   .btn {
     width: 100%;
     max-width: 280px;
   }
-}
 
 footer {
   background-color: #ff4f81;
@@ -390,20 +393,51 @@ footer {
     font-size: 1rem;
   }
 
-  .cursos-container {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
+  .cursos {
+  padding: 60px 15px;
+}
 
-  .cursos-texto h2 {
-    font-size: 2.2rem;
-  }
+.cursos-container {
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
 
-  .curso-texto p {
-    font-size: 1rem;
-  }
+.cursos-texto {
+  text-align: center;
+}
+
+.cursos-texto h2 {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+.cursos-texto p {
+  font-size: 1rem;
+}
+
+.curso-tags {
+  justify-content: center;
+}
+
+.curso-card {
+  padding: 30px 20px;
+}
+
+.curso-card h3 {
+  font-size: 1.3rem;
+}
+
+.curso-card li {
+  font-size: 0.95rem;
+}
+
+.btn-curso {
+  width: 100%;
+  text-align: center;
+}
 
 }
+
 
   .nav {
     flex-wrap: wrap;
