@@ -444,12 +444,10 @@ body {
 
   .cursos-texto h2 {
 
-    font-size: clamp(2rem, 5vw, 3rem);
+  font-size: 2rem;
 
-    line-height: 1.2;
-
-    word-break: break-word;
-  }
+  line-height: 1.2;
+}
 
   .cursos-texto p {
 
