@@ -289,6 +289,15 @@ footer {
   padding: 0;
 }
 
+section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+img {
+  max-width: 100%;
+}
+
 body {
 
   overflow-x: hidden;
@@ -303,7 +312,7 @@ body {
 
   .btn {
     width: 100%;
-    max-width: 280px;
+  max-width: 280px;
   }
 
 
@@ -388,6 +397,8 @@ body {
   nav {
     gap: 12px;
     padding: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   nav a {
@@ -407,7 +418,7 @@ body {
     font-size: 1rem;
   }
 
- .cursos {
+  .cursos {
     padding: 60px 15px;
   }
 
@@ -439,6 +450,7 @@ body {
 
   .curso-card li {
     font-size: 1rem;
+    width: 100%;
   }
 
   .btn-curso {
