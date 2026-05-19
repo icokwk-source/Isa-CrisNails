@@ -15,7 +15,7 @@ body {
 /* HEADER */
 
 header {
-  background: linear-gradient(135deg, #fdb6cc, #ff9eba);
+  background: linear-gradient(135deg, #d6336c, #e090a7);
   color: white;
   text-align: center;
   padding: 50px 20px;
@@ -719,7 +719,7 @@ footer {
 
     font-size: 2rem;
 
-    line-height: 1.3;
+    line-height: 1.2;
   }
 
   .resultado-texto {
