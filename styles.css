@@ -436,12 +436,14 @@ body {
 
   .curso-tags {
 
-    display: flex;
-    flex-wrap: wrap;
-
     justify-content: center;
+  }
 
-    gap: 10px;
+  .curso-tags span {
+
+    width: 100%;
+
+    max-width: 320px;
   }
 
   .curso-card {
@@ -731,6 +733,13 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   transition: all 0.3s ease;
   cursor: pointer;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  text-align: center;
+  word-break: break-word;
+  flex: 1 1 220px;
+  max-width: 100%;
+  
 }
 
 .curso-tags span:hover {
