@@ -407,10 +407,6 @@ body {
     font-size: 1rem;
   }
 
-  .cursos {
-    padding: 60px 15px;
-  }
-
   .cursos-container {
 
   grid-template-columns: 1fr;
@@ -425,30 +421,12 @@ body {
 
   .cursos-texto h2 {
 
-    font-size: 2rem;
-    line-height: 1.3;
+    font-size: 2.2rem;
   }
 
   .cursos-texto p {
 
     font-size: 1rem;
-  }
-
-  .curso-tags {
-
-    justify-content: center;
-  }
-
-  .curso-tags span {
-
-    width: 100%;
-
-    max-width: 320px;
-  }
-
-  .curso-card {
-
-    padding: 30px 20px;
   }
 
   .btn-curso {
@@ -739,7 +717,7 @@ body {
   word-break: break-word;
   flex: 1 1 220px;
   max-width: 100%;
-  
+
 }
 
 .curso-tags span:hover {
