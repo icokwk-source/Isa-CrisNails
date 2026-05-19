@@ -15,7 +15,7 @@ body {
 /* HEADER */
 
 header {
-  background: linear-gradient(135deg, #ff8fb1, #ff9eba);
+  background: linear-gradient(135deg, #fdb6cc, #ff9eba);
   color: white;
   text-align: center;
   padding: 50px 20px;
@@ -733,7 +733,7 @@ footer {
 
   .resultados-grid {
 
-    grid-template-columns: 2,1fr;
+    grid-template-columns: repeat(2, 1fr);
 
     gap: 15px;
   }
