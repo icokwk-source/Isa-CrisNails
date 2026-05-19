@@ -407,25 +407,37 @@ body {
     font-size: 1rem;
   }
 
+ .cursos {
+    padding: 60px 15px;
+  }
+
   .cursos-container {
-
-  grid-template-columns: 1fr;
-  gap: 40px;
-
-}
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
 
   .cursos-texto {
-
     text-align: center;
   }
 
   .cursos-texto h2 {
-
-    font-size: 2.2rem;
+    font-size: 2rem;
+    line-height: 1.3;
   }
 
   .cursos-texto p {
+    font-size: 1rem;
+  }
 
+  .curso-card {
+    padding: 30px 20px;
+  }
+
+  .curso-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .curso-card li {
     font-size: 1rem;
   }
 
