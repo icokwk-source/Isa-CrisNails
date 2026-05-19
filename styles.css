@@ -411,7 +411,7 @@ body {
   }
 
   .sobre-texto h2 {
-    font-size: 2.2rem;
+     font-size: 2.2rem;
   }
 
   .sobre-texto p {
@@ -419,7 +419,10 @@ body {
   }
 
    .cursos {
+
     padding: 60px 15px;
+    max-width: 1200px;
+
   }
 
   .cursos-container {
@@ -435,13 +438,13 @@ body {
   .cursos-texto {
 
     width: 100%;
-
+    min-width: 0;
     text-align: left;
   }
 
   .cursos-texto h2 {
 
-    font-size: 2.2rem;
+    font-size: clamp(2rem, 5vw, 3rem);
 
     line-height: 1.2;
 
