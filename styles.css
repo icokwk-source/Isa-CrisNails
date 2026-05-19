@@ -273,6 +273,15 @@ section {
   opacity: 0.9;
 }
 
+footer {
+  background-color: #ff4f81;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+
 /* Mobile */
 @media (max-width: 600px) {
 
@@ -463,11 +472,6 @@ body {
   }
 
 }
-
-  /* Mobile */
-
-}
-
 
   .nav {
     flex-wrap: wrap;
