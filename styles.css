@@ -733,9 +733,9 @@ footer {
 
   .resultados-grid {
 
-    grid-template-columns: 1fr;
+    grid-template-columns: 2,1fr;
 
-    gap: 20px;
+    gap: 15px;
   }
 
   .resultado-card img {
