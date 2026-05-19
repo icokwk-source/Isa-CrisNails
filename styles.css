@@ -276,6 +276,16 @@ section {
 /* Mobile */
 @media (max-width: 600px) {
 
+  .servicos-grid {
+  padding: 0;
+}
+
+body {
+
+  overflow-x: hidden;
+  
+}
+
   .contato h2 {
 
     font-size: 2rem;
@@ -286,14 +296,6 @@ section {
     width: 100%;
     max-width: 280px;
   }
-
-footer {
-  background-color: #ff4f81;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
-}
 
 
   header h1 {
@@ -434,6 +436,8 @@ footer {
 .btn-curso {
   width: 100%;
   text-align: center;
+}
+
 }
 
   /* Mobile */
